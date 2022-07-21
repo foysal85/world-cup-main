@@ -1,0 +1,164 @@
+.class-one {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* width: 80vw;
+    height: 80vh; */
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    border-radius: 20px;
+
+}
+
+.class-two {
+    width: 50%;
+}
+
+.font {
+    font-size: 50px;
+    padding-left: 20px;
+    color: white;
+}
+
+.paragraph {
+    padding-left: 20px;
+    color: white;
+}
+
+.button {
+    /* padding-left: 20px; */
+    text-decoration: none;
+    background-color: red;
+    margin-left: 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.class-three {
+    width: 50%;
+}
+
+.class-three img {
+    width: 450px;
+    height: 450px;
+    margin-left: 20px;
+}
+
+.blog {
+    display: flex;
+}
+
+.bacground-color {
+    background-color: black;
+    /* margin-left: 130px; */
+    height: 300px;
+
+}
+
+.Button {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    /* justify-content: center; */
+    width: 200px;
+
+}
+
+.button {
+    text-decoration: none;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.color {
+    background-color: white;
+}
+
+.Blogs {
+    margin-left: 15px;
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+}
+
+.border {
+    background-color: rgb(243, 238, 232);
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.anchor{
+    text-decoration: none;
+}
+.decoration{
+    text-decoration: none;
+    background-color: white;
+    height: 10px;
+    border-radius: 2px;
+    margin-left: 4px;
+}
+
+.fa-regular {
+    margin-left: 5px;
+}
+
+.fa-message {
+    margin-left: 25px;
+}
+.clours{
+    background-color: black;
+    height: 250px;
+}
+.footer{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 100px;
+    color: white;
+}
+.match{
+    display: flex;
+    padding-left: 55px;
+}
+.football{
+    font-size: 24px;
+    padding-left: 45px;
+}
+.match img{
+    align-items: center;
+    padding: 0px 20px 0px 10px;
+}
+.football{
+    padding-left: 90px;
+}
+.Time{
+    padding-left: 115px;
+}
+.Upcoming-match{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.highlight:hover{
+    background-color: red;
+}
+ @media screen and(min-width: 577px) and(max-width) {
+    .border{
+        background-color: brown;
+    }
+    .Blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+}
+}
+@media screen and(min-width: 577px) and(max-width){
+    .clours{
+        display: grid;
+        grid-template-columns: repeat(1,1fr );
+    }
+    
+}
